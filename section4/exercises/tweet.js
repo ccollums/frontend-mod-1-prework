@@ -21,7 +21,7 @@ class Tweet {
     this.comments.push('haha hi');
   }
   addLike() {
-    this.likes = this.likes++;
+    this.likes = this.likes+1;
   }
 }
 
